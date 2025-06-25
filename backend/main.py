@@ -27,7 +27,7 @@ db = client.convo_history  # Database
 collection = db.chats  # Collection to store conversations
 
 class ChatRequest(BaseModel):
-    user_id: str
+   
     message: str
 
 # Configure Gemini API
